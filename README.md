@@ -1,2 +1,1 @@
-# ezwin11conf
-## This is a script that basically will help you setup Windows 11 after your clean install!
+# ezwin11conf - A script to assist with the setup of Windows 11 after a clean installation.
