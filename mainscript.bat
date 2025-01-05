@@ -7,7 +7,7 @@ goto :winutil
 
 :winutil
 echo The script will launch the Chris Titus Tech Windows Utility Tool to debloat and make your Windows 11 experience better.
-echo Please choose all the essential tweaks 
+echo Please choose all the essential tweaks.
 echo Also if you are on a laptop please make sure you choose "Set Hibernation as default" 
 echo If you are on a desktop PC, please choose "Disable Hibernation."
 pause
@@ -50,6 +50,12 @@ echo Please make sure you use the Issues tab on the GitHub page to report any bu
 echo Again thanks for using the script.
 echo RayDude 2025.
 pause
-exit
+goto :shutdown
+
+:shutdown
+echo The script will now shutdown your PC to finish the process.
+pause
+echo Goodbye!
+shutdown /s /t 0
 
 
